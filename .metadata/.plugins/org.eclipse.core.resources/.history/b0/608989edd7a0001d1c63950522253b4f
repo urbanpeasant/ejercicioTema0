@@ -1,0 +1,12 @@
+package introduccion;
+
+public class TiposPrimitivos {
+
+	
+	public static void main (String [] args) {
+		
+		byte minumero = (byte)250;
+		System.out.println(minumero);
+		
+	}
+}
