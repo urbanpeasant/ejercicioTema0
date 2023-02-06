@@ -1,6 +1,7 @@
 package ejercicioTema0;
 
 public class EjerciciosPropuestos {
+	static double pi = 3.14;
 	
 	public static void ejercicio3() {
 		int numero=2, cuad=numero*numero;
@@ -16,10 +17,31 @@ public class EjerciciosPropuestos {
 		System.out.println(num);
 	}
 	
+	
+	public static void ejercicio5() {
+		int radio = 3;
+		double longitud = 2 * pi * radio;
+		System.out.println(longitud);
+	}
+	
+	public static void ejercicio6() {
+		double radio = 5.2;
+		double area = pi * radio * radio;
+		System.out.println(area);
+	}
+	
+	public static void ejercicio8() {
+		Random r = new Random();
+		char c = (char)(r.nextInt(26) + 'a');
+		System.out.println(r);
+	}
+	
 	public static void main(String[] args) {
 		ejercicio3();
 		ejercicio4();
-
+		ejercicio5();
+		ejercicio6();
+		ejercicio8();
 	}
 
 }
