@@ -7,6 +7,9 @@ public class Joven {
 	static boolean jasp;
 
 	
+
+	
+	
 	public static void ejercicio6() {
 		int i = 0x100;
 		i >>>= 1;
