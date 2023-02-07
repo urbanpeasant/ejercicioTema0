@@ -1,5 +1,7 @@
 package ejercicioTema0;
 
+import java.util.Random;
+
 public class EjerciciosPropuestos {
 	static double pi = 3.14;
 	
@@ -31,9 +33,9 @@ public class EjerciciosPropuestos {
 	}
 	
 	public static void ejercicio8() {
-		Random r = new Random();
-		char c = (char)(r.nextInt(26) + 'a');
-		System.out.println(r);
+		Random rnd = new Random();
+		char c = (char) ('a' + rnd.nextInt(26));
+		System.out.println(c);
 	}
 	
 	public static void main(String[] args) {
@@ -42,6 +44,8 @@ public class EjerciciosPropuestos {
 		ejercicio5();
 		ejercicio6();
 		ejercicio8();
+		
 	}
 
 }
+
